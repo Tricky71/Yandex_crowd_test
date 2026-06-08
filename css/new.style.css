@@ -508,7 +508,7 @@ a {
 }
 
 .logo__img {
-  width: 4.17vw;
+  
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,8 +519,15 @@ a {
 }
 
 .logo__img svg {
-  fill: #595653
+  fill: #595653;
+  /* width: 19px;
+  height: 27px; */
 }
+
+/* .logo .icon {
+  width: 19px;
+  height: 27px;
+} */
 
 .logo__text {
   margin: 0;
@@ -539,6 +546,7 @@ a {
   }
 
   .logo__img {
+    /* width: 4.17vw; */
     width: 4.68vw;
     margin-right: .47vw
   }
